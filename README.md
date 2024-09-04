@@ -49,3 +49,32 @@ This project is an end-to-end machine learning application designed to predict s
 - **application.py**: Main entry point for the application.
 - **requirements.txt**: Lists Python dependencies needed for the project.
 - **setup.py**: Script for packaging and installation.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ganavihemachandra/End-to-End-Machine-Learning-Project.git
+
+2. Navigate to the project directory:
+   cd End-to-End-Machine-Learning-Project
+
+3. Create a virtual environment:
+   python -m venv venv
+
+4. Activate the virtual environment:
+
+   On Windows:
+   venv\Scripts\activate
+   
+   On macOS/Linux
+   source venv/bin/activate
+
+5. Install the dependencies
+   pip install -r requirements.txt
+
+## Usage
+1. Run the Flask application:
+   python application.py
+
+2. Open your web browser and go to http://localhost:5001 to access the application.
